@@ -1,0 +1,32 @@
+.page {
+    min-width: 1100px;
+    /* Todavía no sabemos cómo hacer versiones de páginas web para móviles, así que
+     hemos establecido un mínimo para el ancho de la página */
+    max-width: 1600px;
+    /* Aquí hemos establecido un máximo para el ancho de la página */
+    margin: 0 auto;
+    /* esto garantiza que todo el contenido esté centrado en pantallas de más de 1600 px */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    /* Parámetros para la sección del encabezado */
+}
+
+/* Aquí tenemos dos ejemplos de selectores para 
+recordarte cómo configurar los estilos de los elementos*/
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+}
+
+/* incluidos aquellos con modificadores clave-valor */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
