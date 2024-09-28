@@ -1,31 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprender a aprender</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+  </head>
+  </head>
+  <body>
     <div class="page">
-        <header class="header">
+      <header class="header">
+        <img
+          class="logo logo_place_header"
+          src="./images/TripletenLogo.svg"
+          alt="Logotipo de la página"
+        />
+        <h1 class="header__title">Aprender a aprender</h1>
+        <h2 class="header__subtitle">
+          Las técnicas de aprendizaje más eficaces y avanzadas que puedes
+          aplicar en tu vida diaria
+          <a class="header__link" href="#">Más información →</a>
+        </h2>
+        <img
+          class="header__main-illustration"
+          src="./images/on_the_edge.png"
+          alt="Ilustración del header"
+        />
+        <div class="header__square-pic"></div>
+      </header>
+      <main class="content">
+        <section class="description">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">El principal problema de la educación</h2>
+            <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ya sea en la escuela o en la universidad, lo único que nadie te enseña es a enseñarte a ti mismo. Muchas veces acabamos haciendo ejercicios específicos y memorizando información sin pensar, para que cuando llegue la hora del examen, aprobemos la prueba. Pero una vez terminada la prueba, esa información ya no tiene utilidad, y no hay garantía de que se conserve. Al final, solo estamos aprendiendo a pasar las pruebas.</p>
 
-        </header>
-        <main class="content">
-            <section class="description">
-            </section>
-            
-            <section class="digits">
-            </section>
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Aquí está la verdadera pregunta:</span> ¿Este enfoque de repetición y memorización nos ayuda a comprender realmente la materia? El consenso académico actual es que no. En realidad, lo que es más importante que cualquier tema individual es saber cómo estudiar, pero por alguna razón, este punto a menudo se pasa por alto. Entonces, ¿qué podemos hacer para remediarlo?</p>
+            <p class="two-columns__paragraph">Bien, hay varias técnicas y ejercicios que pueden aplicarse al proceso educativo para ayudar a hacerlo más eficiente y atractivo. Continúa avanzando para descubrir algunos de los secretos del aprendizaje eficaz.</p>
+            </div>
+          </div>
+        </section>
 
-            <section class="feynman">
-            </section>
-            
-            <section class="kaufman">
-            </section>
-        </main>
-        <footer class="footer">
+        <section class="digits">
+          <h2 class="section-title">Datos y figuras</h2>
+          <h3 class="section-subtitle">El aprendizaje y el cerebro</h3>
+          <ul class="table">
+            <li class="table__cell">
+              <h4 class="table__heading">86 billones</h4>
+              <p class="table__text">El número de neuronas en el cerebro humano</p>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">73%</h4>
+              <p class="table__text">Porcentaje de adultos en EE. UU. que se consideran alumnos de por vida</p>
+              <p class="table__text">Pew Research Center</p>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">1000 terabytes</h4>
+              <p class="table__text">La capacidad de almacenamiento de información de un ser humano</p>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">500 trillones</h4>
+              <p class="table__text">El número de sinapsis nerviosas responsables del aprendizaje en un ser humano adulto medio
+              </p>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">420 millones</h4>
+              <p class="table__text">El número de adultos menores de 25 años con una educación insuficiente para encontrar empleo.</p>
+              <p class="table__text">Banco Mundial, 2017</p>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">26 años</h4>
+              <p class="table__text">La edad a la que Albert Einstein publicó su innovador artículo sobre la relatividad especial</p>
 
-        </footer>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">1885</h4>
+              <p class="table__text">Desarrollo de la curva del olvido</p>
+            </li>
+            <li class="table__cell">
+              <h4 class="table__heading">1897</h4>
+              <p class="table__text">Publicación de las investigaciones de Ivan Pavlov sobre el condicionamiento clásico</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="feynman">
+          <h2 class="feynman__title">La técnica Feynman</h2>
+          <h3 class="feynman__subtitle">Aprender sin olvidar</h3>
+          <a class="feynman__link" href="#">Más →</a>
+        </section>
+
+      <!--- Inicio sección kaufman --->
+        <section class="kaufman">
+          <h2 class="section-title section-title_dark">Diez principios para adquirir habilidades rápidamente</h2>
+          <h3 class="section-subtitle section-subtitle_dark">por Josh Kaufman</h3>
+          <ul class="table table_theme_dark">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">1.</h4>
+              <p class="table__text table__text_dark">Elegir un proyecto atractivo</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">2.</h4>
+              <p class="table__text table__text_dark">Enfocar tu energía en una habilidad a la vez</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">3.</h4>
+              <p class="table__text table__text_dark">Definir tu nivel de desempeño</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">4.</h4>
+              <p class="table__text table__text_dark">Deconstruir la habilidad en sub-habilidades</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">5.</h4>
+              <p class="table__text table__text_dark">Obtener herramientas críticas</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">6.</h4>
+              <p class="table__text table__text_dark">Eliminar los obstáculos que impiden la práctica</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">7.</h4>
+              <p class="table__text table__text_dark">Dedicar tiempo a la práctica</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">8.</h4>
+              <p class="table__text table__text_dark">Crear bucles de retroalimentación rápidos</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">9.</h4>
+              <p class="table__text table__text_dark">Practicar en breves intervalos con un reloj</p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_dark">10.</h4>
+              <p class="table__text table__text_dark">Enfatizar la cantidad y la velocidad</p>
+            </li>
+          </ul>
+          <img class="kaufman__triangle" src="./images/triangle.svg" alt="Un gran triángulo azul, sobre el que
+          Josh Kaufman reclama la propiedad">
+        </section>
+      </main>
+      <!--- Inicio Footer de página --->
+      <footer class="footer">
+        <!--- Envoltorio de las 3 columnas de logo, about y redes sociales --->
+        <div class="footer__columns">
+
+          <!--- Primera Columna, contiene el logo y autor del footer --->
+          <div class="footer__column footer__column_content_copyright">
+            <img class="logo logo_place_footer" src="./images/TripletenLogo-1.svg" alt="Logo del footer">
+            <p class="footer__author">© 2024 Zyan Chávez</p>
+          </div>
+
+          <!--- Segunda Columna, contiene el about de la página --->
+          <div class="footer__column footer__column_content_about">
+            <h2 class="footer__column-heading">Acerca de TripleTen de Yandex</h2>
+            <ul class="footer__list">
+              <li> 
+                <a class="footer__column-link" href="#">Página principal</a>
+              </li>
+              <li> 
+                <a class="footer__column-link" href="#">Misión</a>
+              </li>
+              <li> 
+                <a class="footer__column-link" href="#">Profesiones</a>
+              </li>
+            </ul>
+          </div>
+
+          <!--- Tercera Columna, contiene las redes sociales --->
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li> 
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icons"
+                    src="./images/facebook_white.svg"
+                    alt="Icono de Facebook"
+                  />Facebook
+                </a>
+              </li>
+              <li> 
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icons"
+                    src="./images/instagram_white.svg"
+                    alt="Icono de Instagram"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

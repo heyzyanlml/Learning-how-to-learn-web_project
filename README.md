@@ -2,6 +2,8 @@
 
 ## Description / Descripción
 
+---
+
 ### Español
 
 Este proyecto es una práctica para seguir desarrollando mis habilidades en HTML y CSS, con sus diferentes propiedades. En él encontrarás un sitio web de una sola página acerca de "Aprender cómo aprender", datos, técnicas y consejos para aprender rápidamente.
@@ -16,9 +18,11 @@ It focuses on flexbox design, element positioning, and HTML semantics.
 
 ## Technologies / Tecnologías
 
+---
+
 - HTML
 - CSS (Flexbox)
 
 ## Author / Autor
 
-[Zyan Chávez]
+Zyan Chávez
