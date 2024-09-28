@@ -10,6 +10,52 @@
   </head>
   <body>
     <div class="page">
+      <!-- Pop up 'Suscribete' -->
+      <section class="pop-up" id="popUp-Suscribe">
+        <div class="pop-up__container">
+          <button class="pop-up__close-button">
+            <img
+              src="./images/Close-Icon.png"
+              alt="Pop up close icon"
+            />
+          </button>
+          <form class="pop-up__form" id="popUp-Form">
+            <h3 class="pop-up__title">Suscríbete</h3>
+            <fieldset class="pop-up__input-container">
+              <input
+                class="pop-up__form-item pop-up__form-item-name"
+                type="text"
+                placeholder="Nombre"
+                id="name"
+                name="name"
+                required
+                minlength="2"
+                maxlength="30"
+              />
+              <span class="pop-up__form-error pop-up__form-error_title"></span>
+              <input
+                class="pop-up__form-item pop-up__form-item-email"
+                type="email"
+                placeholder="Correo"
+                id="mail"
+                name="mail"
+                required
+              />
+              <span class="pop-up__form-error pop-up__form-error_link"></span>
+            </fieldset>
+            <button class="pop-up__save-button" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Pop up 'Sent' -->
+      <section class="pop-up pop-up_sent" id="popUp-sent">
+        <div class="pop-up__container">
+            <h3 class="pop-up__title_sent">¡Enviado! 🥳</h3>
+        </div>
+      </section>
+
+      <!-- Header de la página -->
       <header class="header">
         <img
           class="logo logo_place_header"
@@ -140,9 +186,21 @@
           <img class="kaufman__triangle" src="./images/triangle.svg" alt="Un gran triángulo azul, sobre el que
           Josh Kaufman reclama la propiedad">
         </section>
+
+        <section class="suscribe">
+          <h2 class="suscribe__title">Entérate y conoce nuestras novedades</h2>
+          <p class="suscribe__subtitle ">Sé parte de nuestro newletter y aprende las técnicas más eficaces de aprendizaje</p>
+          <button class="suscribe__button">
+            <img class="suscribe__button-image"src="./images/button.png">
+          </button> 
+        </section>
       </main>
+
+     
+
       <!--- Inicio Footer de página --->
       <footer class="footer">
+
         <!--- Envoltorio de las 3 columnas de logo, about y redes sociales --->
         <div class="footer__columns">
 
@@ -195,5 +253,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

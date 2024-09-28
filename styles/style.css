@@ -14,6 +14,138 @@
   box-sizing: border-box; /* Asegura que el padding y el border no afecten el ancho/altura definidos */
 }
 
+/* ---------------------- Estilos pop up -------------------------- */
+
+.pop-up {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.pop-up__sent_opened {
+  background-color: #5371ff;
+  display: block;
+}
+
+.pop-up_opened {
+  display: block;
+}
+
+.pop-up__container {
+  display: flex;
+  justify-content: center;
+
+  background-color: #ffffff;
+  width: 430px;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 0 #00000026;
+
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  z-index: 3;
+}
+
+.pop-up__close-button {
+  background-color: transparent;
+  border: none;
+  width: 40.7px;
+  height: 40.7px;
+  position: absolute;
+  top: -40px;
+  right: -33px;
+}
+
+.pop-up__close-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* ---------------------- PopUp Form -------------------------- */
+.pop-up__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #000000;
+  margin-top: 34px;
+}
+
+.pop-up__title_sent {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #5371ff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pop-up__delete-title {
+  margin-bottom: 38px;
+}
+
+.pop-up__input-container {
+  margin: 30px auto 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: none;
+}
+
+.pop-up__form-item {
+  width: 358px;
+  height: 27.26px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.pop-up__form-item_error {
+  border-bottom: 1px solid red;
+}
+
+.pop-up__form-error {
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+  width: 358px;
+  margin-bottom: 5px;
+}
+
+.pop-up__form-item::placeholder {
+  color: #c4c4c4;
+}
+
+.pop-up__save-button {
+  display: block;
+  width: 358px;
+  height: 50.15px;
+  background-color: #5371ff;
+  color: #ffffff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: auto; /* Ajusté para tener todo dentro del form*/
+  margin-bottom: 36px;
+  border-radius: 2px;
+  border-color: #5371ff;
+}
+
+.pop-up__save-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* ---------------------- header -------------------------- */
+
 .header {
   /* Parámetros para la sección del encabezado */
   background-color: #f2f2f2;
@@ -64,7 +196,7 @@
   /*align-self: center;*/
   align-content: center;
   flex-wrap: wrap;
-  z-index: 10;
+  z-index: 2;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -300,6 +432,45 @@
   to {
     transform: rotate(360deg); /* Termina en 360 grados */
   }
+}
+
+/* ---------------------- suscribe -------------------------- */
+
+.suscribe {
+  background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 90px;
+  padding-top: 50px;
+}
+
+.suscribe__title {
+  color: #1f1f1f;
+  font-size: 2em;
+  margin: 0px auto 7px;
+}
+
+.suscribe__subtitle {
+  color: #1f1f1f;
+  font-size: 14px;
+  margin: 0px auto 40px;
+}
+
+.suscribe__button {
+  border: none;
+}
+
+.suscribe__button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.suscribe__button-image {
+  background-color: transparent;
+  width: 350px;
 }
 
 /* Parámetros para la sección footer */
