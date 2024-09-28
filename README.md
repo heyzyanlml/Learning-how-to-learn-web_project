@@ -8,6 +8,8 @@ Trabajé con una estructura de archivos preparada, que incluía todas las imáge
 
 Seguí las instrucciones detalladas del brief proporcionado, que incluía especificaciones sobre cómo debía ser el resultado final y cómo nombrar las clases siguiendo la metodología **BEM**. Esto me ayudó a mantener un código organizado y fácil de mantener.
 
+Actualización: Agregué una sección de "Newsletter", con un botón que abre un popup con un formulario, al enviarlo, abre otro popup con un mensaje de "Enviado" y se cierra solo al pasar 1s.
+
 ## 🚀 Lo que Aprendí
 
 Este proyecto me permitió profundizar en varios aspectos importantes:
@@ -29,7 +31,6 @@ Aunque este proyecto no incluye funcionalidades interactivas o scripts, sentó l
 
 Me gustaría seguir mejorando este proyecto añadiendo:
 
-- **Formularios**: Diseñar un formulario para permitir que los usuarios envíen comentarios.
 - **Multimedia**: Integrar videos educativos y contenido interactivo.
 - **Accesibilidad**: Implementar mejores prácticas para hacer el sitio accesible para todos los usuarios.
 - **Fuentes Personalizadas**: Agregar diferentes fuentes para mejorar la estética del sitio.
