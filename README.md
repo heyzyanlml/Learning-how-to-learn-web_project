@@ -47,4 +47,4 @@ El proyecto cuenta con:
 
 ## ✨ ¡Echa un Vistazo!
 
-Si quieres ver cómo quedó el proyecto, puedes visitarlo [aquí: (https://heyzyanlml.github.io/Learning-how-to-learn-web_project/)] 😊
+Si quieres ver cómo quedó el proyecto, puedes visitarlo aquí: https://heyzyanlml.github.io/Learning-how-to-learn-web_project/ 😊
